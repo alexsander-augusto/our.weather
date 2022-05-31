@@ -96,11 +96,6 @@ h1 {
     align-items: center;
 }
 
-/* .info .temp {
-    flex: 1;
-    text-align: center;
-} */
-
 .info .tempInfos {
     flex: 2;
     text-align: center;
@@ -137,7 +132,7 @@ h1 {
     color: #FFF;
     font-size: 50px;
     font-weight: bold;
-    margin-left: -15px;
+    margin-left: -20px;
 }
 
 .humidityInfo,
@@ -151,6 +146,9 @@ h1 {
 .feels_likeInfo sup {
     font-size: 20px;
     font-weight: normal;
+}
+.tempInfo sup {
+    margin-left: -8px;
 }
 .feels_likeInfo span,
 .humidityInfo span,
@@ -225,6 +223,10 @@ h1 {
         text-align: center;
         align-items: center;
         margin: 0;
+    }
+
+    .info .temp {
+        margin-left: -20px;
     }
 
     .info .rightInfo {
