@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Weather</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>Criado por <a href="https://github.com/shootowned">Shootowned</a></header>
+
+    <h1>Our Weather</h1>
+
+    <form class="busca">
+        <input type="search" id="searchInput" />
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">  
+        <div class="info">
+            <div class="temp">
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                <div class="tempInfo">-- <sup>ºC</sup></div>   
+            </div>
+            <div class="tempInfos">
+                <div class="feels_like">
+                    <div class="feels_likeTitulo">Sensação Térmica: </div>
+                    <div class="feels_likeInfo">-- <span>ºC</span></div>
+                </div>
+                <div class="humidity">
+                    <div class="humidityTitulo">Umidade: </div>
+                    <div class="humidityInfo">-- <span>%</span></div>
+                </div>
+                <div class="vento">
+                    <div class="ventoTitulo">Vento</div>
+                    <div class="ventoInfo">-- <span>km/h</span></div>
+                </div>
+            </div>
+            <div class="rightInfo">
+                <div class="titulo">--</div>
+                <div class="date">--</div>
+                <div class="tempDescription">--</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

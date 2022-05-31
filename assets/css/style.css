@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;    
+    font-family: 'Rajdhani', sans-serif;
+    background-image: url(../media/greate-scene-of-weather-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.container {
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+    text-shadow: rgb(0 0 0 / 100%) 0px 0px 2px;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+h1 {
+    color: #FFF;
+    margin: 20px 0;
+    text-shadow: rgb(0 0 0 / 100%) 0px 0px 2px;
+}
+
+.busca {
+    display: flex;
+    width: 300px;
+}
+.busca #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgb(0 0 0 / 100%) 0px 0px 2px;
+}
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #555;
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.busca button:hover {
+    background-color: #444;
+}
+
+.resultado {
+    width: 100%;    
+    margin-top: 20px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;  
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin: auto;
+    /* border: 1px solid white; */
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .info .temp {
+    flex: 1;
+    text-align: center;
+} */
+
+.info .tempInfos {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.feels_like,
+.humidity,
+.vento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* .info .vento {
+    flex: 1;
+    text-align: center;
+} */
+
+.tempTitulo,
+.humidityTitulo,
+.ventoTitulo,
+.feels_likeTitulo {
+    color: #ccc;
+    font-size: 16px;
+}
+.tempInfo {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+.humidityInfo,
+.ventoInfo,
+.feels_likeInfo {
+    color: #FFF;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.tempInfo sup,
+.feels_likeInfo sup {
+    font-size: 20px;
+    font-weight: normal;
+}
+.feels_likeInfo span,
+.humidityInfo span,
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.rightInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.titulo {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.date,
+.tempDescription {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.aviso {
+    color: #FFF;
+    padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .busca {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .busca button {
+        margin: 0;
+        width: 80px;
+        margin-top: 5px;
+    }
+
+    .info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .info .temp,
+    .info .tempInfos,
+    .info .rightInfo {
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .info .rightInfo {
+        margin-top: 15px;
+    }
+}
