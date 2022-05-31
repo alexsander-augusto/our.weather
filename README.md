@@ -8,12 +8,13 @@ Aplicação Web pra ver o clima das cidades.
 
 ### Screenshot
 
-- Desktop / Mobile
+- Desktop
 
-<p float="left">
-  <img src="https://github.com/shootowned/our.weather/blob/main/assets/media/desktop-screenshot.png" width="500" />
-  <img src="https://github.com/shootowned/our.weather/blob/main/assets/media/mobile-screenshot.png" width="216" />
-</p>
+![our weather project](https://github.com/shootowned/our.weather/blob/main/assets/media/desktop-screenshot.png)
+
+- Mobile 
+
+![our weather project](https://github.com/shootowned/our.weather/blob/main/assets/media/mobile-screenshot.png)
 
 
 ## Meu Processo
