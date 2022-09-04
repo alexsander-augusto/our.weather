@@ -2,7 +2,7 @@
 
 Aplicação Web pra ver o clima das cidades.
 
-- [Our Weather](https://shootowned.github.io/our.weather/)
+- [Our Weather](https://alexsander-augusto.github.io/our.weather/)
 
 ## Welcome! 👋
 
@@ -30,7 +30,7 @@ Aplicação Web pra ver o clima das cidades.
 
 ## Author
 
-- Website - [Github/Shootowned](https://github.com/shootowned)
-- Linkedin - [@shootowned](https://www.linkedin.com/in/shootowned/)
+- Website - [Portfolio](https://dev-alexsander.vercel.app/)
+- Linkedin - [@alexsander-augusto](https://www.linkedin.com/in/alexsander-augusto/)
 
 Obrigado por conferir este projeto. 🔥
